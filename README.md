@@ -40,3 +40,30 @@ python gradiant_decent_2var.py
 The uploaded scripts demonstrate the required core exercises, but they do **not yet** run all four roadmap learning rates (`0.001`, `0.01`, `0.5`, `1.5`) side by side or include a full written comparison. Add that experiment and explanation to complete the roadmap deliverable.
 
 These are practice scripts from the internship learning exercises.
+
+---
+
+## Roadmap description
+
+### Theory
+- **Linear algebra:** vectors, dot product, matrix multiplication, why a dataset is a matrix, and the expression (X @ w + b).
+- **Probability and statistics:** mean, variance, distributions, conditional probability, Bayes' theorem, and why correlation does not imply causation.
+- **Calculus:** derivative as slope, partial derivatives, gradient, and chain rule (a foundation for backpropagation).
+- **Gradient descent:** intuition, learning rate, local minima, and convergence.
+
+### Hands-on lab
+- Implement dot product, matrix multiplication, and normalization in pure NumPy.
+- Implement gradient descent from scratch to minimize (f(x)=x^2+3x+4); plot the descent path.
+- Extend gradient descent to two variables.
+- Experiment with learning rates **0.001, 0.01, 0.5, and 1.5** and explain what happens for each.
+
+### Expected deliverable
+- `day02_math_gradient_descent.ipynb` (or organized Python equivalents), plots, and a written explanation of learning-rate effects.
+
+### Practical completion checklist
+- [ ] Show dot product and matrix multiplication with NumPy.
+- [ ] Normalize a numeric array.
+- [ ] Derive and implement the gradient for (f(x)=x^2+3x+4).
+- [ ] Save a plot of the optimization path.
+- [ ] Test all four learning rates in the two-variable experiment.
+- [ ] Explain convergence, slow learning, and divergence/overshooting where observed.
